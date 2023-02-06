@@ -1,0 +1,35 @@
+.ct1{
+    padding-top: 10vh;
+}
+.tbl{
+    margin-top: 10vh;
+}
+.rw1{
+    background-color: rgb(235, 235, 235);
+    height: 6vh;
+    margin-top: 6vh;
+    margin-bottom:6vh ;
+    
+}
+.btn1{
+    width:15%;
+    font-size: 1.1rem;
+    height: 6vh;
+    background-color: green;
+    
+}
+h2{
+    color: #030E39;
+    font-weight: 800;
+    margin-top: 5vh;
+}
+.btn2{
+    margin-left: 8%;
+    margin-right: 8%;
+    background-color: green;
+}
+.btn3{
+    margin-left: 8%;
+    margin-right: 8%;
+    background-color: red;
+}

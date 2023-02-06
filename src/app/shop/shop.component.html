@@ -1,0 +1,34 @@
+<app-header></app-header>
+<div class="container ct1">
+    <div class="row">
+        <!-- <div class="col-md-3 col-sm-12 cl1">
+            <img class="img" alt={{itemdata[1].name}}  src={{itemdata[1].image}} >
+            <button type="button" class="btn btn-secondary btn1" [routerLink]="['/productdetails']">See More</button>          
+        </div> -->
+
+        <div *ngFor="let item of itemdata">
+            <div class="col-md-3 col-sm-12 cl1">
+              <img class="img" alt={{item.name}} src={{item.image}}>
+              <button type="button" class="btn btn-secondary btn1" [routerLink]="['/productdetails']">See More</button>
+            </div>
+            <div class="name">
+                {{item.name}}
+            </div>
+        </div> 
+        
+        <!-- <div class="col-3">
+            <img class="hdr"  src="assets/Images/22.jpg">
+            <button type="button" class="btn btn-secondary btn">SHOP</button>
+        </div>
+        <div class="col-3">
+            <img class="hdr"  src="assets/Images/33.jpg">
+            <button type="button" class="btn btn-secondary btn">SHOP</button>
+        </div>
+        <div class="col-3">
+            <img class="hdr"  src="assets/Images/44.jpg">
+            <button type="button" class="btn btn-secondary btn">SHOP</button>
+        </div> -->
+    </div>
+
+</div>
+<app-footer></app-footer>

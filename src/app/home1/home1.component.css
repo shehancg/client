@@ -1,0 +1,24 @@
+.ct1{
+    padding-top: 15%;
+}
+h2{
+    text-align: center;
+    color: rgb(116, 116, 116);
+    font-size: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+    text-align: center;
+    font-size: 1.4rem;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 2%;
+    color: rgb(207, 201, 193);
+}
+.rw1{
+    padding-left: 17%;
+    padding-top: 3%;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(161, 163, 165);
+}

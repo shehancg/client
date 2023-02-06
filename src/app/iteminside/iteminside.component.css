@@ -1,0 +1,33 @@
+.ct1{
+    padding-top: 15vh;
+    padding-bottom: 25vh;
+}
+.hdr{
+    width: 100%;
+    height: 70vh;
+}
+h4{
+    padding-top: 6vh;
+    padding-bottom: 3vh;
+}
+h6{
+    padding-top: 5vh;
+    font-size: 1.5rem;
+    color: green;
+}
+.p1{
+    font-size: 1.3rem;
+}
+.btn1{
+    width: 60%;
+    margin-top: 8vh;
+    background-color: rgb(22, 143, 62);
+    border-color: rgb(22, 143, 62);
+    border-radius: 5px;
+    height: 7vh;
+    font-weight: 600;
+}
+.quantity__input{
+    width: 50%;
+    margin-top: 9vh;
+}

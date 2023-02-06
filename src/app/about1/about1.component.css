@@ -1,0 +1,59 @@
+h3{
+    text-align: center;
+    color: rgb(116, 116, 116);
+    padding-top: 10vh;
+    font-size: 2rem;
+}
+p{
+    text-align: center;
+    padding-top: 7vh;
+    color: rgb(131, 133, 134);
+    font-size: 1.3rem;
+}
+.rw2{
+    padding-top: 7vh;
+}
+.team{
+    text-align: center;
+    color: rgb(116, 116, 116);
+    padding-bottom: 7vh;
+    font-size: 2rem; 
+}
+.cl1{
+    background-color: rgb(213, 216, 216);
+    width: 23%;
+}
+.hdr1{
+    width: 200%;
+    height: 96vh;
+}
+.cl3{
+    padding-left: 2%;
+    
+    width: 23%;
+}
+.cl4{
+    margin-left: 1%;
+    background-color: rgb(213, 216, 216);
+    width: 23%;
+}
+.pteam{
+    font-size: 1.05rem;
+    padding-top: 3vh !important;
+}
+h4{
+    color: rgb(116, 116, 116);
+    padding-top: 4vh;
+    text-align: center;
+}
+.ct1{
+    padding-bottom: 20vh;
+}
+h5{
+    padding-top: 15vh;
+    text-align: center;
+    font-weight: 800;
+}
+.clchat{
+    margin-top: -10vh;
+}

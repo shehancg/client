@@ -1,0 +1,27 @@
+.rw1{
+    background-color: rgb(255, 255, 255);
+    height: 6vh;
+    margin-top: 6vh;
+    margin-bottom:6vh ;
+    
+}
+.btn1{
+    width:15%;
+    font-size: 1.1rem;
+    height: 6vh;
+    background-color: green;
+    
+}
+h2{
+    
+    font-weight: 800;
+    margin-top: 5vh;
+}
+.btn2{
+    margin-right: 2%;
+    background-color: green;
+}
+.btn3{
+    
+    background-color: red;
+}

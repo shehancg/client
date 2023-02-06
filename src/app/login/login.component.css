@@ -1,0 +1,40 @@
+.rounded-t-5 {
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+  }
+
+.cl2{
+    padding-top: 20vh;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+h3{
+    padding-bottom: 5vh;
+    
+}
+.cl1{
+    padding-top: 20vh;
+    padding-left: 5%;
+}
+.cd1{
+    padding-bottom: 25vh;
+    
+}
+.hdr{
+    width: 100%;
+    height: 40vh;
+    
+}
+.fm{
+    width: 70%;
+}
+
+  @media (min-width: 992px) {
+    .rounded-tr-lg-0 {
+      border-top-right-radius: 0;
+    }
+
+    .rounded-bl-lg-5 {
+      border-bottom-left-radius: 0.5rem;
+    }
+  }

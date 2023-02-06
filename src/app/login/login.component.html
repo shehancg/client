@@ -1,0 +1,96 @@
+<app-header></app-header>
+<!-- Section: Design Block -->
+<section class=" text-center text-lg-start">
+    <div class="card cd1">
+        <img class="hdr"  src="assets/Images/fllll.jpg" style="height: 400px;">
+      <div class="row g-0 ">
+        <div class="col-6 cl1">
+            
+          <div class="card-body">
+          <h3> LOGIN FORM </h3>
+            <form autocomplete="off" [formGroup]="loginForm" (ngSubmit)="submitFormLogin()">
+              <!-- Email input -->
+              <div class="form-outline mb-4 fm">
+                <input type="email" id="emaillog" class="form-control" formControlName="email"/>
+                <label class="form-label" for="emaillog">Email address</label>
+              </div>
+  
+              <!-- Password input -->
+              <div class="form-outline mb-4 fm">
+                <input type="password" id="pwdlog" class="form-control" formControlName="password"/>
+                <label class="form-label" for="pwdlog">Password</label>
+              </div>
+  
+              <!-- 2 column grid layout for inline styling -->
+              <div class="row mb-4">
+                <div class="col">
+                  <!-- Checkbox -->
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="remlog" checked />
+                    <label class="form-check-label" for="remlog"> Remember me </label>
+                  </div>
+                </div>
+  
+                <div class="col">
+                  <!-- Simple link -->
+                  <a href="#!">Forgot password?</a>
+                </div>
+              </div>
+  
+              <!-- Submit button -->
+              <button type="submit" class="btn btn-primary btn-block mb-4">Login</button>
+  
+            </form>
+        </div>
+        </div>
+
+        <div class="col-6 cl2">
+            <div class="card-body">
+            <h3> REGISTER FORM </h3>
+              <form autocomplete="off" [formGroup]="registerForm" (ngSubmit)="submitFormRegister()" class="needs-validation">
+                <!-- Name input -->
+                <div class="form-outline mb-4 fm">
+                  <input type="text" id="namereg" class="form-control" formControlName="name" required/>
+                  <label class="form-label" for="namereg">Name</label>
+                </div>
+                
+                <!-- Email input -->
+                <div class="form-outline mb-4 fm">
+                    <input type="email" id="emailreg" class="form-control" formControlName="email" required/>
+                    <label class="form-label" for="emailreg">Email address</label>
+                </div>
+    
+                <!-- Password input -->
+                <div class="form-outline mb-4 fm">
+                  <input type="password" id="pwdreg" class="form-control" formControlName="password" required/>
+                  <label class="form-label" for="pwdreg">Password</label>
+                </div>
+
+                <!-- Phone input -->
+                <div class="form-outline mb-4 fm">
+                    <input type="tel" id="phonereg" class="form-control" formControlName="phone" required/>
+                    <label class="form-label" for="phonereg">Phone Number</label>
+                </div>
+
+                <!-- Address input -->
+                <div class="form-outline mb-4 fm">
+                    <input type="text" id="addressreg" class="form-control" formControlName="address" required/>
+                    <label class="form-label" for="addressreg">Address</label>
+                </div>
+    
+                <!-- 2 column grid layout for inline styling -->
+                
+    
+                <!-- Submit button -->
+                <button type="submit" class="btn btn-primary btn-block mb-4">Sign in</button>
+    
+              </form>
+    
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+  <!-- Section: Design Block -->
+
+  <app-footer></app-footer>

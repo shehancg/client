@@ -1,0 +1,23 @@
+.ct1{
+    padding-bottom: 20vh;
+    width: 90%;
+}
+.hdr{
+    height: 80vh;
+    padding-top: 17vh;
+    
+}
+h1{
+    margin-top: -45vh;
+    padding-left: 12%;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    font-size: 3rem;
+}
+h3{
+    margin-top: -35vh;
+    padding-left: 12%;
+    color: rgb(252, 252, 252);
+    font-weight: 800;
+    font-size: 2.3rem;
+}

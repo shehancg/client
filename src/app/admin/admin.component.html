@@ -1,0 +1,24 @@
+<app-header></app-header>
+<div class="container ct1">
+    <div class="row">
+        <div class="col-4 ">
+            <button class="user" [routerLink]="['/adminusers']"><i class="bi bi-people"></i> USERS</button>
+        </div>
+        <div class="col-4 ">
+            <button class="order" [routerLink]="['/adminorders']"><i class="bi bi-bag-heart"></i> ORDERS</button>
+        </div>
+        <div class="col-4 cl1">
+            <button class="item" [routerLink]="['/adminitems']"><i class="bi bi-flower3"></i>ITEMS</button>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-8"></div>
+        <div class="col-4">
+            <app-chat></app-chat>
+        </div>
+    </div>
+</div>
+<app-footer></app-footer>

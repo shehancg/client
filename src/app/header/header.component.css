@@ -1,0 +1,33 @@
+.hdr{
+    margin-left: 40%;
+    margin-top: 4vh;
+}
+ul {
+    list-style-type: none;
+    margin: 40;
+    padding-left: 20%;
+    overflow: hidden;
+    background-color: #ffffff;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(184, 181, 181);
+    text-align: center;
+    padding: 24px 46px;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  li a:hover {
+    background-color: #cecece;
+    color: black;
+  }
+  .rw1{
+    width: 100%;
+  }
+  

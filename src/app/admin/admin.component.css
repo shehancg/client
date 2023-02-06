@@ -1,0 +1,41 @@
+.ct1{
+    padding-top: 15vh;
+    padding-bottom: 25vh;
+}
+.user{
+    width: 70%;
+    height: 30vh;
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(33, 110, 81);
+    font-size: 2rem;
+    
+}
+.user:hover{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.order{
+    width: 70%;
+    height: 30vh;
+    border-color: rgb(10, 10, 10);
+    background-color: rgb(103, 107, 106);
+    font-size: 2rem;
+}
+.order:hover{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.item{
+    width: 70%;
+    height: 30vh;
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(167, 172, 100);
+    font-size: 2rem;
+}
+.item:hover{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.cl1{
+    align-items: center;
+}
