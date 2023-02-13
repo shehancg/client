@@ -1,28 +1,28 @@
 .hdr1{
-width: 180%;
-}
-.rwmain{
-    height: 40vh;
-    padding-top: 8vh;
-}
-.claddress{
-    padding-left: 10%;
-    padding-top: 5vh;
-    
-}
-.clcontact{
-    padding-left: 10%;
-    padding-top: 5vh;
-    
-}
-h5{
-    font-size: 1.4rem;
-    color: rgb(184, 184, 184);
-    font-weight: 700;
-}
-p{
-    color: rgb(184, 184, 184);
-}
-.rw1{
-    text-align: center;
-}
+    width: 180%;
+    }
+    .rwmain{
+        height: 40vh;
+        padding-top: 8vh;
+    }
+    .claddress{
+        padding-left: 10%;
+        padding-top: 5vh;
+        
+    }
+    .clcontact{
+        padding-left: 10%;
+        padding-top: 5vh;
+        
+    }
+    h5{
+        font-size: 1.4rem;
+        color: rgb(9, 82, 51);
+        font-weight: 700;
+    }
+    p{
+        color: rgb(9, 82, 51);
+    }
+    .rw1{
+        text-align: center;
+    }

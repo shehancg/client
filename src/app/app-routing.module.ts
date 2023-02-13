@@ -30,7 +30,7 @@ const routes: Routes = [
   {path:'portfolio',component:PortfolioComponent},
   {path:'portfolio1',component:Portfolio1Component},
   {path:'shop',component:ShopComponent},
-  {path:'iteminside',component:IteminsideComponent},
+  {path:'iteminside/:id',component:IteminsideComponent},
   {path:'login',component:LoginComponent},
   {path:'cart',component:CartComponent},
   {path:'thanks',component:ThanksComponent},

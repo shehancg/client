@@ -53,7 +53,7 @@ import { AdditemComponent } from './additem/additem/additem.component';
     AdminordersComponent,
     AdminitemsComponent,
     ChatComponent,
-    AdditemComponent
+    AdditemComponent,
   ],
   imports: [
     BrowserModule,
@@ -66,7 +66,7 @@ import { AdditemComponent } from './additem/additem/additem.component';
       timeOut:5000,
       positionClass:'toast-top-center',
       newestOnTop:false
-    }) 
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]

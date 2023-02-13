@@ -6,12 +6,21 @@
     <table class="table table-bordered">
       <thead>
         <tr>
-          <th>Order Id</th>
-          <th>Order Item</th>
+          <th>Order Name</th>
+          <th>Order Address</th>
           <th>Total</th>
           <th>Date Ordered</th>
           <th>Status</th>
         </tr>
       </thead>
+      <tbody>
+        <tr *ngFor="let orders of ordersdata">
+          <td>{{ orders.name }}</td>
+          <td>{{ orders.address }}</td>
+          <td>{{ orders.totalPrice }}</td>
+          <td>{{ orders.createdAt }}</td>
+          <td>{{ orders.status }}</td>
+        </tr>
+      </tbody>
     </table>
 </div>
